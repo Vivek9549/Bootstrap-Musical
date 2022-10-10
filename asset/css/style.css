@@ -447,10 +447,15 @@ nav h1{
   visibility: hidden;
   opacity: 0;
   transition: 0.5s;
+  text-decoration: none;
 }
 
 .scrollTop.active{
   bottom: 2rem;
   visibility: visible;
   opacity: 1;
+}
+
+.scrollTop:hover{
+  color: white;
 }
